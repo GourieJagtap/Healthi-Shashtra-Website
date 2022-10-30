@@ -1,38 +1,125 @@
-.App {
-  text-align: center;
+.bg{
+  background-image: url("../src/Images/bg.png");
+  height: 100vh;
+  width:100% ;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bgg{
+  background-image: url("../src/Images/abt-bg.png");
+  height: 100vh;
+  width:100% ;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
 }
+@media only screen
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+and (min-device-width: 375px)
+
+and (max-device-width: 667px)
+
+and (-webkit-min-device-pixel-ratio: 2)
+
+and (orientation: portrait) {
+  .bg{
+    background-image: url("../src/Images/bg.png");
+    height: 35vh;
+    width:100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .bgg{
+    background-image: url("../src/Images/abt-bg.png");
+    height: 35vh;
+    width:100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
   }
-  to {
-    transform: rotate(360deg);
+
+}
+@media only screen
+
+and (min-device-width: 640px)
+
+and (max-device-width: 768px)
+
+and (-webkit-min-device-pixel-ratio: 2)
+
+and (orientation: portrait) {
+  .bg{
+    background-image: url("../src/Images/bg.png");
+    height: 35vh;
+    width:100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
   }
+  .bgg{
+    background-image: url("../src/Images/abt-bg.png");
+    height: 35vh;
+    width:100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+}
+
+@media only screen
+
+and (min-device-width: 740px)
+
+and (max-device-width: 896px)
+
+and (-webkit-min-device-pixel-ratio: 2)
+
+and (orientation: portrait) {
+  .bg{
+    background-image: url("../src/Images/bg.png");
+    height: 35vh;
+    width:100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .bgg{
+    background-image: url("../src/Images/abt-bg.png");
+    height: 35vh;
+    width:100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+}
+@media only screen
+
+and (min-device-width: 850px)
+
+and (max-device-width: 1368px)
+
+and (-webkit-min-device-pixel-ratio: 2)
+
+and (orientation: portrait) {
+  .bg{
+    background-image: url("../src/Images/bg.png");
+    height: 35vh;
+    width:100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .bgg{
+    background-image: url("../src/Images/abt-bg.png");
+    height: 35vh;
+    width:100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
 }
