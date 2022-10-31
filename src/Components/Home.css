@@ -1,0 +1,72 @@
+.taste{
+    font-family:serif;
+    font-size:70px;
+    padding-left: 60px;
+    padding-top: 70px;
+}
+.taste-btm{
+    font-size:16px;
+    padding: 10px 10px 10px 20px;
+    font-family: sans-serif;
+    background-color: rgba(197, 197, 130, 0.74);
+}
+.btm{
+    background-color: rgba(136, 197, 130, 0.74);
+}
+.rem{
+    font-weight: 900px;
+}
+@media only screen
+
+and (min-device-width: 360px)
+
+and (max-device-width: 667px)
+
+and (-webkit-min-device-pixel-ratio: 2)
+
+and (orientation: portrait) {
+    .taste{
+        font-size:1.3em;
+    padding-left: .5em;
+    padding-top: .5em;
+    }
+    .taste-btm{
+        font-size:.5em;
+        padding: .5em;
+        font-family: sans-serif;
+        background-color: rgba(197, 197, 130, 0.74);
+    }
+    .btm{
+        background-color: rgba(136, 197, 130, 0.74);
+    }
+}
+@media only screen
+
+and (min-device-width: 640px)
+
+and (max-device-width: 768px)
+
+and (-webkit-min-device-pixel-ratio: 2)
+
+and (orientation: portrait) {
+    .taste{
+        font-size:1.5em;
+    padding-left: 1em;
+    padding-top: 1em;
+    }
+}
+@media only screen
+
+and (min-device-width: 740px)
+
+and (max-device-width: 896px)
+
+and (-webkit-min-device-pixel-ratio: 2)
+
+and (orientation: portrait) {
+    .taste{
+        font-size:2.5em;
+    padding-left: 1em;
+    padding-top: 1em;
+    }
+}
